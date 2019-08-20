@@ -10,21 +10,29 @@
     font-family: Roboto-slab-regular; /* Гарнитура шрифта */
     src: url(src/fonts/roboto-slab-regular.ttf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+    font-family: Roboto-medium; /* Гарнитура шрифта */
+    src: url(src/fonts/roboto-medium.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Roboto-thin; /* Гарнитура шрифта */
+    src: url(src/fonts/roboto-thin.ttf); /* Путь к файлу со шрифтом */
+}
 body{
     margin: 0 auto;
     font-family: Roboto-regular, sans-serif;
 }
-.content{
+.wrapper{
     margin-left: 274px;
     margin-right: 94px;
 }
-.header{
+.box:first-child{
     padding-top: 55px;
     background: linear-gradient(rgba(67,82,102,0.95), rgba(67,82,102,0.95)), url(src/img/header-banner.png) 100% no-repeat;
     background-size: cover;
     height: 990px;
 }
-.header-head {
+.header {
     display: flex;
     justify-content: space-between;
 }
@@ -33,7 +41,7 @@ body{
     align-items: center;
 }
 .login{
-    margin-right: 19px;
+    margin-right: 190px;
 }
 .logo-img{
     display: inline-block;
@@ -66,7 +74,7 @@ body{
     font-size: 22px;
     padding: 8px 17px;
 }
-.header-banner{
+.banner{
     margin-top: 170px;
     margin-left: 14px;
     font-family: Roboto-slab-regular, sans-serif;
@@ -119,3 +127,101 @@ body{
     border-radius: 50%;
     margin: 89px 12px;
 }
+
+.box:nth-child(2){
+    height: 578px;
+}
+.box:nth-child(2) .wrapper{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-left: 52px;
+}
+.box:nth-child(2) .wrapper .wrapper-img{
+    height: 810px;
+    width: 810px;
+    background: url(src/img/page-img.png) no-repeat 100% top;
+    background-size: contain;
+    margin-top: 115px
+}
+.box:nth-child(2) .wrapper .wrapper-text{
+    margin-top: 166px;    
+}
+.box:nth-child(2) .wrapper .wrapper-text h2{
+    font-size: 42px;
+    font-family: Roboto-slab-regular, sans-serif;
+    font-weight: normal;
+    word-spacing: 12px;
+    color: #37414e;
+    padding-left: 100px;
+    margin: 0;
+}
+.box:nth-child(2) .wrapper .wrapper-text p{
+    font-size: 20px;
+    line-height: 47px;
+    word-spacing: 10px;
+    color: #4b596c;
+    margin: 0;
+    margin-top: 22px;
+    margin-left: 100px;
+    padding-right: 80px;
+
+}
+.box:nth-child(2) .wrapper .wrapper-btns{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-right: 213px;
+}
+.wrapper-btns div{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-register{
+    background-color: #67bf95;
+}
+.btn-register div{
+    background: url(src/img/register.png) no-repeat 100%;
+    background-size: contain;
+}
+.btn-register-fb{
+    background-color: #ffffff;
+    border: 3px solid #67bf95;
+}
+.btn-register-fb div{
+    background: url(src/img/register-fb.png) no-repeat 100%;
+    background-size: contain;
+
+}
+
+.box:nth-child(3){
+    background-color: #52ad81;
+    height: 925px;
+}
+.box:nth-child(3) .wrapper h2{
+    margin: 0;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Roboto-medium, sans-serif;
+    letter-spacing: 1.5px;
+}
+.box:nth-child(3) .wrapper p{
+    margin: 0;
+    margin-top: 22px;
+    margin-left: 12px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Roboto-thin, sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 0.5px;
+}
+.box:nth-child(3) .wrapper .wrapper-text{
+    padding-top: 118px;
+    padding-left: 198px;
+}
+
