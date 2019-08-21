@@ -196,32 +196,72 @@ body{
 .btn-register-fb div{
     background: url(src/img/register-fb.png) no-repeat 100%;
     background-size: contain;
-
 }
 
 .box:nth-child(3){
     background-color: #52ad81;
     height: 925px;
 }
-.box:nth-child(3) .wrapper h2{
+.box:nth-child(3) .wrapper-text h2{
     margin: 0;
     color: #ffffff;
     font-size: 60px;
     font-family: Roboto-medium, sans-serif;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.7px;
 }
-.box:nth-child(3) .wrapper p{
+.box:nth-child(3) .wrapper-text p{
     margin: 0;
     margin-top: 22px;
-    margin-left: 12px;
+    margin-left: 15px;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 32px;
     font-family: Roboto-thin, sans-serif;
-    word-spacing: 5px;
-    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    letter-spacing: 0.7px;
 }
-.box:nth-child(3) .wrapper .wrapper-text{
+.box:nth-child(3) .wrapper-text{
     padding-top: 118px;
-    padding-left: 198px;
+    padding-left: 470px;
 }
-
+.box:nth-child(3) .wrapper-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box:nth-child(3) .wrapper-img div{
+    height: 541px;
+    width: 1323px;
+    margin-top: 135px;
+}
+.box:nth-child(3) .wrapper-img .wrapper-browser-img img{
+    height: 100%;
+    width: 100%;
+}
+.box:nth-child(3) .wrapper-img .btn-left, .box:nth-child(3) .wrapper-img .btn-right{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #52ad81;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin-bottom: 387px;
+    margin-left: 3px;    
+}
+.box:nth-child(3) .wrapper-img .btn-left div, .box:nth-child(3) .wrapper-img .btn-right div {
+    width: 35%;
+    height: 35%;
+    margin: 0px;
+}
+.box:nth-child(3) .wrapper-img .btn-right div{
+    background: url(src/img/arrow-right.png) no-repeat 100%;
+    background-size: contain;
+    background-position-x: center;
+}
+.box:nth-child(3) .wrapper-img .btn-left div{
+    background: url(src/img/arrow-left.png) no-repeat 100%;
+    background-size: contain;
+    background-position-x: center;
+}
