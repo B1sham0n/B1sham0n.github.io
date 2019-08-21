@@ -259,9 +259,11 @@ body{
     background: url(src/img/arrow-right.png) no-repeat 100%;
     background-size: contain;
     background-position-x: center;
+    margin-left: 3px;
 }
 .box:nth-child(3) .wrapper-img .btn-left div{
     background: url(src/img/arrow-left.png) no-repeat 100%;
     background-size: contain;
     background-position-x: center;
+    margin-right: 3px;
 }
